@@ -208,6 +208,15 @@ footer {
   #hero-header {
     font-size: 7.5rem;
   }
+
+  #landing-footer {
+    position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
+  }
+
   .card {
     margin: 0 auto;
     width: 350px;
@@ -220,7 +229,6 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
-
   .navbar-link {
     float: none;
   }
