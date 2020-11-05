@@ -109,6 +109,8 @@ body {
   opacity: 1;
 }
 
+/* Footer Section */
+
 footer {
   text-align: center;
   margin-top: 3rem;
@@ -186,6 +188,9 @@ footer {
 .card__link {
   color: rgb(255, 88, 88);
   text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 .card__link:hover {
@@ -195,6 +200,14 @@ footer {
 .card-description {
   font-weight: bold;
   margin: 1.5rem 0;
+}
+
+.card-date {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: rgb(255, 88, 88);
 }
 
 #explore-footer {
